@@ -9,6 +9,8 @@ pluginManagement {
     }
 }
 include 'implementation'
+include 'implementation:v1_20_1'
+findProject(':implementation:v1_20_1')?.name = 'v1_20_1'
 include 'implementation:v1_19'
 findProject(':implementation:v1_19')?.name = 'v1_19'
 include 'implementation:v1_18'
